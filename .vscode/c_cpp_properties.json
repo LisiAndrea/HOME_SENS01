@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${HOME}/esp_8266/ESP8266_RTOS_SDK/**",
+                "${HOME}/esp_8266/esp-idf-lib/**",
+                "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

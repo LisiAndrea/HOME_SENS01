@@ -1,0 +1,18 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/bootloader/subproject",
+    "build_dir":          "/home/andrea/esp_8266/projects/home_ESP8266_SENS01/build/bootloader",
+    "config_file":        "/home/andrea/esp_8266/projects/home_ESP8266_SENS01/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v3.4-73-gd48c4c17",
+    "phy_data_partition": "",
+    "monitor_baud" : "74880",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/esp8266/Kconfig;/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/esp_common/Kconfig;/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/log/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/bootloader/Kconfig.projbuild;/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/esptool_py/Kconfig.projbuild;/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "esp8266", "esp_common", "esptool_py", "log", "main", "partition_table", "spi_flash", "" ],
+    "build_component_paths" : [ "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/bootloader", "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/bootloader_support", "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/esp8266", "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/esp_common", "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/esptool_py", "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/log", "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/bootloader/subproject/main", "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/partition_table", "/home/andrea/esp_8266/ESP8266_RTOS_SDK/components/spi_flash", "" ]
+}
